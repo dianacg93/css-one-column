@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    font-family: 'Lato', 'Anton', sans-serif;
+    /* border: 1px solid red !important; */
+}
+
+body {
+    height: 100vh;
+}
+
+.bg {
+    background-color: whitesmoke;
+    margin: 0 5%;
+    padding: 0 2%;
+
+}
+
+header {
+    border-radius: 5px;
+    background-color: rgba(212, 127, 0, 0.829);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+    margin-bottom: 10px;
+}
+
+#logo p {
+    margin: 0;
+    padding: 0;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    width: 100px;
+    font-family: "Anton";
+    font-size: 3em;
+    color: #fff;
+    text-shadow: 3px 2px rgb(58, 58, 58);
+}
+
+nav{
+    width: 50vw;
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 1.5em;
+    color: rgb(27, 27, 27);
+}
+
+nav a:hover {
+    color: #fff;
+}
+
+/* container section */
+
+.container {
+    top: -100;
+}
+
+.section{
+    padding-top: 25px;
+    font-family: 'Anton';
+    font-size: 2em;
+}
+
+#welcome {
+    height: 600px;
+    margin: 0 auto;
+    overflow: hidden;
+
+    background-image: url("https://images.pexels.com/photos/92904/pexels-photo-92904.jpeg");
+    background-size: cover;
+}
+
+.title {
+    padding: 0 10px;
+    background-color: rgba(233, 157, 58, 0.377);
+}
+
+.me-info{
+    display: flex;
+    padding-top: 5px;
+}
+
+.me-info p {
+    font-size: .75em;
+    padding: 0 5px;
+}
+
+.me-info img {
+    height: 400px;
+    border-radius: 50%;
+}
+
+.photos {
+    padding-top: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.photos img {
+    height: 250px;
+    padding: 10px;
+    border-radius: 25px;
+}
+
+footer{
+    background-color: rgba(212, 127, 0, 0.829);
+}
